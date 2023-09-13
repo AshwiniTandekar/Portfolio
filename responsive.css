@@ -1,0 +1,85 @@
+@media screen and (max-width:992px) {
+    .hamburger {
+        display: flex;
+        margin-right: 30px;
+    }
+    .list li a{
+        display: none;
+    }
+    .one-project{
+        /* height: 43vh; */
+        font-size: 16px;
+    }
+    .hobbies .descript_div div{
+        font-size: 13px;
+    }
+    .about .horizontal-line{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:786px){
+    .hamburger{
+        display: flex;
+        font-size: 1.5rem;
+        width: 25%;
+        justify-content: flex-start;
+        margin-left: 18px;
+    }
+    .nav{
+        flex-direction: row-reverse;
+    }
+    .logo{
+        font-size: 1.5rem;
+        margin: auto 0;
+        margin-right: 13px;
+    }
+    .second-section img{
+        height: 243px;
+        width: 243px;
+    }
+    .list{
+        gap: 0px;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .one-project{
+        width: 50%;
+    }
+    .full_name, .contact h1, .pro-name{
+        font-size: 1.7em;
+    }
+    .first-section{
+        width: 71%;
+    }
+    .one-project h3, .contact h3{
+        font-size: 20px;
+    }
+    .first-section p, .contact p, .one-project p{
+        font-size: 15px;
+    }
+    .descript_div div, footer {
+        font-size: 10px;
+    }
+    .button{
+        margin: 1rem 0;
+    }
+    .pro-name{
+        margin-bottom: 3rem;
+    }
+    /* h1{
+        font-size: 29px;
+    }
+    h2{
+        font-size: 1.7em;
+    }
+    h3{
+        font-size: 23px;
+    } */
+}
+@media screen and(max-width:525) {
+    
+}

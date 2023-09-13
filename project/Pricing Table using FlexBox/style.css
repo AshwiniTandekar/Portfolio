@@ -1,0 +1,45 @@
+@media (width <= 970px){
+    .container{
+        flex-direction: column;
+    }
+}
+*{
+    font-family: 'Sono', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.basic,.standard,.premium{
+    width: 38vh;
+    height: 25vh;
+    background-color: #d3d3d366;
+    padding: 0.5rem;
+    text-align: center;
+}
+.heading, .price{
+    text-align: center;
+    font-weight: bold;
+}
+.heading{
+    font-size: 1rem;
+}
+.price{
+    font-size: 1.7rem;
+}
+button{
+    padding: 7px 4px;
+    background-color: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+ul{
+    font-size: 0.9rem;
+    list-style: none;
+}
