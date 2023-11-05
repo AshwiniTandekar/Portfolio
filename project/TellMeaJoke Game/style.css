@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    /* color: white; */
+    text-align: center;
+}
+.heading{
+    margin: 40px;
+    font-size: 50px;
+    padding: 26px 80px;
+    color: #80f7a5;
+    font-family: 'Sono', sans-serif;
+
+}
+.jokes{
+    border: 2px solid white;
+    background-color: yellow;
+    width: 50%;
+    margin: auto;
+    height: 39vh;
+    border-radius: 4px;
+    font-family: 'Lobster', cursive;
+}
+footer{
+    font-family: 'Indie Flower', cursive;
+    margin-top: 70px;
+    color: white;
+    /* width: 100%; */
+    /* background-color: white; */
+}
+.jokePara{
+    font-size: 23px;
+    /* font-weight: bold; */
+    margin: 45px 32px;
+    font-size: 45px;
+}
+.head1{
+    font-size: 44px;
+}
